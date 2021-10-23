@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:ha_resume_messenger/pages/HomePage.dart';
 
-void main() {
+void main()
+{
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        "/" : (context) => HomePage()
+        "/" : (context) => HomePage(),
       },
     )
   );

@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
-class CallsPage extends StatefulWidget {
-  const CallsPage({Key? key}) : super(key: key);
+class CallsView extends StatefulWidget
+{
+  const CallsView({Key? key}) : super(key: key);
 
   @override
-  _CallsPageState createState() => _CallsPageState();
+  _CallsViewState createState() => _CallsViewState();
 }
 
-class _CallsPageState extends State<CallsPage> {
+class _CallsViewState extends State<CallsView>
+{
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return Container(
       child: Text("Calls"),
     );
